@@ -19,5 +19,6 @@ Below is the list explaining the goal of each code file.
 - simulation & analysis & plotting when temperature is low: low_temperature.py
 
 ## Report & Presentations
-The final report for this project is the file "FinalReport_Yangrui.pdf"
-I also attach the slides "MC_protein_folding.pdf"
+- The proposal for this project:  "proposal_YangruiHu.pdf"
+- The final report for this project: "FinalReport_Yangrui.pdf"
+- The slides for the presentation: "MC_protein_folding.pdf"
