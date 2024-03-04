@@ -1,16 +1,17 @@
 # MC-protein-folding
 
-This repo is for the "Monte Carlo Simulations of Protein Folding" project. This project is my final project in the computational physics course at Brown University, taken in spring 2018.
+This repo is for the "Monte Carlo Simulations of Protein Folding" project. This project is my final project in the computational physics course at Brown University, taken in Spring 2018.
 
-Protein folding is a hot topic both in biology and biophysics. There are many scientists working on the simulation of protein folding system. Although Molecular Dynamics method is a good technique to probe this problem, the calculation is huge when the size of the system becomes large. In this case, Monte Carlo method can give us a rough result quickly and help us understand this system. In this project, I simulate the process of the protein folding with the Monte Carlo method and monitor two key quantities: the energy of the system and the end-to-end distance which is the distance between the first amino acid and the last one. Moreover, I study the effect of temperature, interaction coefficient, and the number of amino acids. 
-I find the following conclusions: 
+Protein folding is a prominent subject in both biology and biophysics, captivating the attention of numerous researchers. While Molecular Dynamics offers a powerful tool for probing this problem, its computational demands escalate significantly with larger systems. In such cases, the Monte Carlo method provides a swift albeit approximate solution, giving hints for the system's dynamics. In this project, I employ the Monte Carlo method to simulate protein folding processes, focusing on two crucial parameters: the system's energy and the end-to-end distance, which measures the distance between the first and last amino acids.
 
-  - The extent of folding tends to be high in low temperature.
-  - Phase transition is observed in the protein system and the transition temperature is independent of N.
-  - The protein system approaches to self-avoiding random walk system when temperature is high enough.
+The main conclusions are as follows:
+
+  - Protein folding tends to be more pronounced at lower temperatures.
+  - Phase transition phenomena occur within the protein system, with the transition temperature independent of the number of amino acids (N).
+  - At sufficiently high temperatures, the protein system converges towards a self-avoiding random walk configuration. 
 
 ## Code List
-Below is the list explaining the goal of each code file. 
+Below is the list explaining the purpose of each code file:
 
 - simulating protein folding: protein.py
 - analyzing the simulation data: analysis_equilibrium.py
